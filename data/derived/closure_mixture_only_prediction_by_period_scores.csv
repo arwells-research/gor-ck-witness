@@ -1,0 +1,2 @@
+period,rmse_weighted,mae_weighted,r2_weighted,n_bins,n_total_rows
+6,0.0906774994563789,0.06943104918207396,0.915907286714544,6,10

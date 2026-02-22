@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# big scratch outputs (keep only curated final outputs)
+data/derived/tmp_*
+data/derived/*seed*
+data/derived/*log
+data/derived/*.collapse.txt
+

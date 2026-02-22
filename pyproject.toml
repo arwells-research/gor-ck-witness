@@ -1,0 +1,17 @@
+[project]
+name = "gor-ck-witness"
+version = "0.1.0"
+description = "Coordinate-kernel / loop-area witnesses built on top of gor-caf (CAF backbone)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
